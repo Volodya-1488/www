@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="../www/css/main4.css">
+</head>
+<body>
+
+    <div id="header">
+        <div class="logo_color1"></div>
+        <div class="Menu">
+            <a href="../www/index.html" class="excursions">Главная</a>
+            <a class="excursions" style="margin-left: 150px;" href="../www/index2.html" target="_blank">Экскурсии</a>
+        </div>
+
+        <h2 class="heading3">ТЕСТ</h2>
+    </div>
+
+        <div id="block2">
+            <div class="img_block2"></div>
+            <div class="container">
+                <!-- Первая страница -->
+                <div id="startPage" class="question active">
+                    <h2 class="heading2">Найди свою экскурсию!</h2>
+                    <p class="text">Хотите узнать, какая экскурсия идеально подходит для вас? <br><br>
+                        Пройдите наш увлекательный тест и откройте для себя незабываемые приключения! <br><br> Ответьте на несколько простых вопросов, и мы подберем для вас экскурсии, которые подойдут именно вашим интересам и предпочтениям. <br><br> Не упустите шанс сделать ваше путешествие ярче и насыщеннее!</p>
+                    <button class="button" onclick="startTest()">Пройти тест</button>
+                </div>
+        
+                <!-- Страницы с вопросами -->
+                <div id="questionPage" class="question">
+                    <div id="questionBlock"></div>
+                    <div class="btn-container">
+                        <button class="button2" onclick="prevQuestion()">←</button>
+                        <button class="button3" onclick="nextQuestion()">→</button>
+                    </div>
+                </div>
+        
+                <!-- Последняя страница -->
+                <div id="finishPage" class="question">
+                    <h2 class="heading2">Тест завершён!</h2>
+                    <p class="text">На основе ваших ответов мы подобрали несколько вариантов экскурсий, которые могут вас заинтересовать. <br><br>Мы надеемся, что среди предложенных вариантов вы найдете то, что идеально подойдет для вашего отдыха! <br><br>
+                        Спасибо за участие в тесте! Желаем вам увлекательных путешествий и незабываемых впечатлений!</p>
+                    <button class="button4" onclick="finishTest()">Завершить тест →</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="logo2"></div>
+            <div class="menu2">
+                <a class="text_menu2" href="../www/index.html">Главная <br><br> </a>
+                <a class="text_menu2" href="../www/index2.html">Экскурсии</a>
+            </div>   
+            <div class="watsapp">
+                <a class="text_menu2" href="+7-(754)-322-44-44" target="_blank">
+                    <img src="../www/images/wt1.svg" class="mail_logo">
+                    +7-(754)-322-44-44 <br><br>
+                </a>
+                <a class="text_menu2" href="+7-(754)-322-44-44" target="_blank">
+                    <img src="../www/images/tg2.svg" class="mail_logo">
+                    +7-(754)-322-44-44 <br><br>
+                </a>
+                <a class="text_menu2" href="https://web.telegram.org/k/#@iubipacademy" target="_blank">
+                    <img src="../www/images/tg2.svg" class="mail_logo">
+                    Телеграм-бот
+                </a>
+            </div>   
+            <div class="mail">
+                <a class="text_menu2" href="" target="_blank">               
+                    <img src="../www/images/mail1.svg" class="mail_logo">
+                    office@iubiptravel.ru
+                </a>
+                <a class="vk" href="https://vk.com/iubipmain?from=search" target="_blank"></a>
+                <a class="tg" href="https://web.telegram.org/k/#@iubipacademy" target="_blank"></a>
+            </div>
+        </div>
+
+        <script src="./script4.js"></script>
+
+    </body>
+</html>
